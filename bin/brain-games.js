@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-import brainGames from "../src/cli.js";
+// eslint-disable-next-line import/extensions
+import brainGames from '../src/cli.js';
 
 brainGames();
