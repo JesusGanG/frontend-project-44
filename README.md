@@ -6,6 +6,6 @@
 
 ### 1. Brain-even
 
-The player is shown a random number. He needs to answer yes if the number is even, or no if it is odd.
+The player is shown a random number. He needs to answer "yes" if the number is even, or "no" if it is odd.
 
 [![asciicast](https://asciinema.org/a/vHoVB5axbKubYaDarh88n1hZR.svg)](https://asciinema.org/a/vHoVB5axbKubYaDarh88n1hZR)
