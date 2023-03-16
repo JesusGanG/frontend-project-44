@@ -15,8 +15,7 @@ const BrainEven = () => {
     say(`Question: ${number}`);
     const UserAnswer = readlineSync.question('Your answer: ');
     if (number % 2 === 0) {
-      // eslint-disable-next-line no-const-assign, no-constant-condition, no-cond-assign
-      if (UserAnswer = 'yes') {
+      if (UserAnswer === 'yes') {
         say('Correct!');
       } else {
         say(`"no" is wrong answer ;(. Correct answer was "yes".\nLet's try again, ${name}!`);
