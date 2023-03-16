@@ -1,5 +1,2 @@
-function getRandomNum(min, max) {
-  return Math.random() * (max - min) + min;
-}
-
-export default getRandomNum;
+// eslint-disable-next-line import/prefer-default-export
+export const getRandomNum = (min, max) => Math.floor(Math.random() * (max - min));
