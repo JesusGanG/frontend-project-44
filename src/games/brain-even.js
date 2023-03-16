@@ -5,8 +5,8 @@ const getRandomNum = (min, max) => Math.floor(Math.random() * (max - min));
 const say = console.log;
 
 say('Welcome to the Brain Games!');
-const name = readlineSync.question('May i have your name?');
-say(`Hello,${name}!`);
+const name = readlineSync.question('May i have your name? ');
+say(`Hello, ${name}!`);
 say('Answer "yes" if the number is even, otherwise answer "no",');
 
 const BrainEven = () => {
