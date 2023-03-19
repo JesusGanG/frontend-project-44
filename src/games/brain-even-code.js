@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import brainGame from './cli.js';
+import greetingYou from '../cli.js';
 
 function num() {
   const number = (Math.round(Math.random() * 100));
@@ -7,7 +7,7 @@ function num() {
 }
 
 export default function game() {
-  const userName = brainGame();
+  const userName = greetingYou();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
     const randomNum = num();
