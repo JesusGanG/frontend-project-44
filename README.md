@@ -10,7 +10,8 @@ The player is shown a random number. He needs to answer "yes" if the number is e
 
 [![asciicast](https://asciinema.org/a/vHoVB5axbKubYaDarh88n1hZR.svg)](https://asciinema.org/a/vHoVB5axbKubYaDarh88n1hZR)
 
-### 2. Brain-calc
-The player is shown a random mathematical expression that needs to be calculated and the correct answer written down.
+### 2. Brain-calculator
+
+the Player is shown a random combination of numbers, which he must add up and give an answer
 
 [![asciicast](https://asciinema.org/a/nibTKH3YbRW8sJcdXdphUsizV.svg)](https://asciinema.org/a/nibTKH3YbRW8sJcdXdphUsizV)
