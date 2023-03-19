@@ -6,7 +6,7 @@ function num() {
   return number;
 }
 
-export default function game() {
+function game() {
   const userName = greetingYou();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
@@ -21,3 +21,4 @@ export default function game() {
   }
   console.log(`Congratulations, ${userName}!`);
 }
+export default game;
