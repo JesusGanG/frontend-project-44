@@ -1,3 +1,3 @@
-import calculate from '../src/games/brain-calc-code.js';
+import Calculator from '../src/games/brain-calc-code.js';
 
-calculate();
+Calculator();

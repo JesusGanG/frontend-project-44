@@ -30,8 +30,8 @@ const brainCalculator = () => {
   return [question, correctAnswer];
 };
 
-const brainCalc = () => {
+const Calculator = () => {
   games(rule, brainCalculator);
 };
 
-export default brainCalc;
+export default Calculator;
