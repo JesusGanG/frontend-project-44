@@ -1,7 +1,5 @@
 import readlineSync from 'readline-sync';
 
-import { greetingYou, check, result } from '../src/index.js';
-
 const getRandomNum = (min, max) => Math.floor(Math.random() * (max - min));
 
 const say = console.log;
