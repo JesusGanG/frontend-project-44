@@ -17,9 +17,9 @@ const calculate = (operator, num1, num2) => {
   }
 };
 
-const maxFirstNumber = 50;
+const maxFirstNumber = 10;
 
-const maxSecondNumber = 25;
+const maxSecondNumber = 5;
 
 const brainCalculator = () => {
   const num1 = randomNum(1, maxFirstNumber);
