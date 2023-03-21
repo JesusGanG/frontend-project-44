@@ -10,29 +10,27 @@ export const randomNum = (min, max) => Math.floor(Math.random() * (max - min + 1
 
 const maxRoundsGame = 3;
 
-const say = console.log;
-
 const getAnswer = () => readlineSync.question('Your answer: ');
 
 const games = (rule, getCorrectAnswer) => {
-  say('Welcome to the Brain Games!');
+  console.log('Welcome to the Brain Games!');
   const userName = greetingYou();
-  say(`Hello, ${userName}!`);
-  say(rule);
+  console.log(`Hello, ${userName}!`);
+  console.log(rule);
   for (let gameRound = 0; gameRound < maxRoundsGame;) {
     const [question, correctAnswer] = getCorrectAnswer();
-    say(`Question: ${question}`);
+    console.log(`Question: ${question}`);
     const answerUser = getAnswer();
     const resultGame = answerUser === correctAnswer;
     if (resultGame) {
-      say('Correct!');
+      console.log('Correct!');
       gameRound += 1;
       if (gameRound === maxRoundsGame) {
-        say(`Congratulations, ${userName}!`);
+        console.log(`Congratulations, ${userName}!`);
       }
     } else {
-      say(`'${answerUser}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-      say(`Let's try again, ${userName}!`);
+      console.log(`'${answerUser}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+      console.log(`Let's try again, ${userName}!`);
       break;
     }
   }
