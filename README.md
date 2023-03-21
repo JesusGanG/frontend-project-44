@@ -15,3 +15,9 @@ The player is shown a random number. He needs to answer "yes" if the number is e
 the Player is shown a random combination of numbers, which he must add up and give an answer
 
 [![asciicast](https://asciinema.org/a/nibTKH3YbRW8sJcdXdphUsizV.svg)](https://asciinema.org/a/nibTKH3YbRW8sJcdXdphUsizV)
+
+### 3. Brain-gcd
+
+The player is shown two random numbers, needs to find the greatest common divisor and write down the correct answer.
+
+[![asciicast](https://asciinema.org/a/bsVEedmMRbewYQe3hygccJZ7Q.svg)](https://asciinema.org/a/bsVEedmMRbewYQe3hygccJZ7Q)
