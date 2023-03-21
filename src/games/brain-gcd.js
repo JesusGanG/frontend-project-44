@@ -4,9 +4,9 @@ const rules = 'Find the greatest common divisor of given numbers.';
 
 const gcd = (num1, num2) => (num2 !== 0 ? gcd(num2, num1 % num2) : num1);
 
-const maxFirstNumber = 100;
+const maxFirstNumber = 30;
 
-const maxSecondNumber = 100;
+const maxSecondNumber = 30;
 
 const getCorrectAnswer = () => {
   const firstNumber = randomNum(0, maxFirstNumber);
