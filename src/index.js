@@ -12,11 +12,11 @@ const maxRoundsGame = 3;
 
 const getAnswer = () => readlineSync.question('Your answer: ');
 
-const games = (rule, getCorrectAnswer) => {
+const games = (rules, getCorrectAnswer) => {
   console.log('Welcome to the Brain Games!');
   const userName = greetingYou();
   console.log(`Hello, ${userName}!`);
-  console.log(rule);
+  console.log(rules);
   for (let gameRound = 0; gameRound < maxRoundsGame;) {
     const [question, correctAnswer] = getCorrectAnswer();
     console.log(`Question: ${question}`);

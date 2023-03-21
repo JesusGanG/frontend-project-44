@@ -1,6 +1,6 @@
 import games, { randomNum } from '../index.js';
 
-const rule = ('What is the result of expression?');
+const rules = ('What is the result of expression?');
 
 const operators = ['+', '-', '*'];
 
@@ -31,7 +31,7 @@ const brainCalculator = () => {
 };
 
 const Calculator = () => {
-  games(rule, brainCalculator);
+  games(rules, brainCalculator);
 };
 
 export default Calculator;
