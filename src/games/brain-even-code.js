@@ -1,24 +1,19 @@
-import readlineSync from 'readline-sync';
-import greetingYou from '../cli.js';
+import games, { randomNum } from '../index.js';
 
-function num() {
-  const number = (Math.round(Math.random() * 100));
-  return number;
-}
+const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-function game() {
-  const userName = greetingYou();
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  for (let i = 0; i < 3; i += 1) {
-    const randomNum = num();
-    const quest = readlineSync.question(`${'Question: '}${randomNum}${'\nYour answer: '}`);
-    if ((randomNum % 2 === 0 && quest === 'yes') || (randomNum % 2 !== 0 && quest === 'no')) {
-      console.log('Correct!');
-    } else {
-      console.log(`${quest} is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${userName}!`);
-      return;
-    }
-  }
-  console.log(`Congratulations, ${userName}!`);
-}
-export default game;
+const isEven = (num) => num % 2 === 0;
+
+const maxNumber = 100;
+
+const getCorrectAnswer = () => {
+  const question = randomNum(1, maxNumber);
+  const correctAnswer = isEven(question) ? 'yes' : 'no';
+  return [question, correctAnswer];
+};
+
+const brainEven = () => {
+  games(rules, getCorrectAnswer);
+};
+
+export default brainEven;
