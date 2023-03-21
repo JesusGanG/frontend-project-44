@@ -15,7 +15,9 @@ const say = console.log;
 const getAnswer = () => readlineSync.question('Your answer: ');
 
 const games = (rule, getCorrectAnswer) => {
+  say('Welcome to the Brain Games!');
   const userName = greetingYou();
+  say(`Hello, ${userName}!`);
   say(rule);
   for (let gameRound = 0; gameRound < maxRoundsGame;) {
     const [question, correctAnswer] = getCorrectAnswer();
