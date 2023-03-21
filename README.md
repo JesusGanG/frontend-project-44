@@ -12,7 +12,7 @@ The player is shown a random number. He needs to answer "yes" if the number is e
 
 ### 2. Brain-calculator
 
-the Player is shown a random combination of numbers, which he must add up and give an answer
+The Player is shown a random combination of numbers, which he must add up and give an answer
 
 [![asciicast](https://asciinema.org/a/nibTKH3YbRW8sJcdXdphUsizV.svg)](https://asciinema.org/a/nibTKH3YbRW8sJcdXdphUsizV)
 
