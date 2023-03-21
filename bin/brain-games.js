@@ -1,3 +1,3 @@
-import greetingYou from '../src/cli.js';
+import brainGames from '../src/cli.js';
 
-greetingYou();
+brainGames();
