@@ -1,3 +1,3 @@
-import brainPrime from '../src/games/brain-prog-code.js';
+import brainPrime from '../src/games/brain-prime-code.js';
 
 brainPrime();
