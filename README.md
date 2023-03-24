@@ -21,3 +21,9 @@ The Player is shown a random combination of numbers, which he must add up and gi
 The player is shown two random numbers, needs to find the greatest common divisor and write down the correct answer.
 
 [![asciicast](https://asciinema.org/a/bsVEedmMRbewYQe3hygccJZ7Q.svg)](https://asciinema.org/a/bsVEedmMRbewYQe3hygccJZ7Q)
+
+### 3. Brain-progression
+
+The player is shown a set of numbers. He needs to figure out what number is missing
+
+[![asciicast](https://asciinema.org/a/s4MItcYe8ClszP5PDxPmJaU6R.svg)](https://asciinema.org/a/s4MItcYe8ClszP5PDxPmJaU6R)
