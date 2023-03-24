@@ -27,3 +27,9 @@ The player is shown two random numbers, needs to find the greatest common diviso
 The player is shown a set of numbers. He needs to figure out what number is missing
 
 [![asciicast](https://asciinema.org/a/s4MItcYe8ClszP5PDxPmJaU6R.svg)](https://asciinema.org/a/s4MItcYe8ClszP5PDxPmJaU6R)
+
+### 3. Brain-prime
+
+The player is shown a number and he must answer whether it is simple or not
+
+[![asciicast](https://asciinema.org/a/HfuIbyrPnPkQvaw5my2PLZFTQ.svg)](https://asciinema.org/a/HfuIbyrPnPkQvaw5my2PLZFTQ)
