@@ -1,12 +1,5 @@
-/* eslint-disable no-tabs */
-/* eslint-disable no-unused-vars */
 import readlineSync from 'readline-sync';
-
-const greetingYou = () => readlineSync.question('May I have your name? ', {
-  defaultInput: 'User',
-});
-
-export const randomNum = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+import makeWelcome from './cli.js';
 
 const maxRoundsGame = 3;
 
@@ -14,15 +7,15 @@ const getAnswer = () => readlineSync.question('Your answer: ');
 
 const games = (rules, getCorrectAnswer) => {
   console.log('Welcome to the Brain Games!');
-  const userName = greetingYou();
+  const userName = makeWelcome();
   console.log(`Hello, ${userName}!`);
   console.log(rules);
   for (let gameRound = 0; gameRound < maxRoundsGame;) {
     const [question, correctAnswer] = getCorrectAnswer();
     console.log(`Question: ${question}`);
     const answerUser = getAnswer();
-    const resultGame = answerUser === correctAnswer;
-    if (resultGame) {
+    const isAnswerCorrect = answerUser === correctAnswer;
+    if (isAnswerCorrect) {
       console.log('Correct!');
       gameRound += 1;
       if (gameRound === maxRoundsGame) {

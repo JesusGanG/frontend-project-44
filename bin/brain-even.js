@@ -1,3 +1,3 @@
-import BrainEven from '../src/games/brain-even-code.js';
+import brainEven from '../src/games/brain-even-code.js';
 
-BrainEven();
+brainEven();

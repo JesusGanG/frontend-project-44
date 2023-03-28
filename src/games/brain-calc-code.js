@@ -1,4 +1,5 @@
-import games, { randomNum } from '../index.js';
+import games from '../index.js';
+import randomNum from '../utils.js';
 
 const rules = ('What is the result of expression?');
 
@@ -30,8 +31,8 @@ const brainCalculator = () => {
   return [question, correctAnswer];
 };
 
-const Calculator = () => {
+const calculator = () => {
   games(rules, brainCalculator);
 };
 
-export default Calculator;
+export default calculator;

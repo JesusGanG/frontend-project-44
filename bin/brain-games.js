@@ -1,3 +1,3 @@
-import brainGames from '../src/cli.js';
+import makeWelcome from '../src/cli.js';
 
-brainGames();
+makeWelcome();
