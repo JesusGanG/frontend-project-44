@@ -2,6 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
+  "description": "[![Actions Status](https://github.com/JesusGanG/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/JesusGanG/frontend-project-44/actions)",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -10,12 +11,11 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
-  "description": "[![Actions Status](https://github.com/JesusGanG/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/JesusGanG/frontend-project-44/actions)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vova",
+  "author": "Vladimir Almosov",
   "license": "ISC",
   "dependencies": {
     "readline-sync": "^1.4.10"
