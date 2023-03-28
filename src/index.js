@@ -17,7 +17,6 @@ const games = (rules, getCorrectAnswer) => {
     const isAnswerCorrect = answerUser === correctAnswer;
     if (isAnswerCorrect) {
       console.log('Correct!');
-      gameRound += 1;
       if (gameRound === maxRoundsGame) {
         console.log(`Congratulations, ${userName}!`);
       }
