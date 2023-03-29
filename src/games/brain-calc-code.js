@@ -1,7 +1,7 @@
 import games from '../index.js';
 import randomNum from '../utils.js';
 
-const rules = ('What is the result of expression?');
+const rules = ('What is the result of the expression?');
 
 const operators = ['+', '-', '*'];
 
