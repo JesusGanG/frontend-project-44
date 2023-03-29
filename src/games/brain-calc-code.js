@@ -26,7 +26,7 @@ const brainCalculator = () => {
   const num1 = randomNum(1, maxFirstNumber);
   const num2 = randomNum(1, maxSecondNumber);
   const operator = operators[randomNum(0, operators.length - 1)];
-  const question = `${num1}${operator}${num2}`;
+  const question = `${num1} ${operator} ${num2}`;
   const correctAnswer = calculate(operator, num1, num2).toString();
   return [question, correctAnswer];
 };
