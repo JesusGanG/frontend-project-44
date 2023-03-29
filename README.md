@@ -2,6 +2,8 @@
 
 [![Actions Status](https://github.com/JesusGanG/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/JesusGanG/frontend-project-44/actions) <a href="https://codeclimate.com/github/JesusGanG/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/e39e50423e77933d43fb/maintainability" /></a>
 
+[![Linter](https://github.com/JesusGanG/frontend-project-44/workflows/linter/badge.svg)](https://github.com/JesusGanG/frontend-project-44/actions/workflows/linter-check.yml)
+
 # Welcome to the Brain Games!
 
 Done as part of a project on [Hexlet](https://ru.hexlet.io/).
