@@ -13,7 +13,8 @@ const calculate = (operator, num1, num2) => {
       return num1 - num2;
     case '*':
       return num1 * num2;
-    default: throw new Error(`Operator ${operator} - is incorrect`);
+    default:
+      throw new Error(`Operator ${operator} - is incorrect`);
   }
 };
 
